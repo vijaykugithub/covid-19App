@@ -1,0 +1,66 @@
+.form-control-primary {
+    margin: 10px;
+    opacity: 0.2;
+    border-radius: 2px;
+  }
+
+  .table-fixed tbody {
+    height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    }
+    .table-fixed thead,
+    .table-fixed tbody,
+    .table-fixed tr,
+    .table-fixed td,
+    .table-fixed th {
+    display: block;
+    }
+    .table-fixed tr:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    }
+    .table-fixed tbody td,
+    .table-fixed thead > tr > th {
+    float: left;
+    }
+    .table > thead > tr > th,
+.table > thead > tr > td {
+font-size: .9em;
+font-weight: 400;
+border-bottom: 0;
+letter-spacing: 1px;
+vertical-align: top;
+padding: 8px;
+background: #51596a;
+text-transform: uppercase;
+color: #ffffff;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 100;
+  padding: 70px 0 0 10px;
+  border-right: 1px solid #d3d3d3;
+}
+
+.left-sidebar {
+  position: sticky;
+  top:0;
+  height: calc(100vh - 70px)
+}
+
+.sidebar-nav li .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+main {
+  padding-top: 90px;
+}
+main .card {
+  margin-bottom: 20px;
+}
